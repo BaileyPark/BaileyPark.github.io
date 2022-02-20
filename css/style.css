@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#date {
+    text-align: center;
+    background-color: aliceblue;
+}
+#day, #clock, #weather, #greeting {
+    font-size: 50px;
+    color:goldenrod;
+}
+
+#greeting {
+    color: white;
+    background-color: tomato;
+    margin: 30px;
+}
+
+#login {
+    margin: 20px;
+}
+
+#todo {
+    background-color: black;
+}
+
+#todo-list {
+    color: white;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}
