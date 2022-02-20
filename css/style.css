@@ -9,9 +9,14 @@ body {
     text-align: center;
     background-color: aliceblue;
 }
-#day, #clock, #weather, #greeting {
+#day, #clock, #greeting {
     font-size: 50px;
     color:goldenrod;
+}
+
+#weather {
+    font-size: 30px;
+    color:darkred;
 }
 
 #greeting {
@@ -24,8 +29,13 @@ body {
     margin: 20px;
 }
 
-#todo {
+ {
+    text-align: center;
     background-color: black;
+}
+
+#todo, #todo-form {
+    text-align: center;
 }
 
 #todo-list {
@@ -38,4 +48,12 @@ button {
 
 .hide {
     display: none;
+}
+
+ul {
+    list-style:none;
+}
+
+ul li span {
+    background: black;
 }
