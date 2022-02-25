@@ -68,9 +68,9 @@
 }
 
 #todo-insert {
-    margin: 10px;
+    margin: 5px;
     border: none;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 900;
     background-color: unset;
 }
@@ -86,8 +86,8 @@
 #todo-list {
     display: flex;
     align-items: flex-end;
-    flex-direction: column;
-    color: white;
+    flex-direction: column-reverse;
+    background-color: white;
 }
 
 button {
@@ -100,9 +100,4 @@ button {
 
 ul {
     list-style:none;
-}
-
-ul li span {
-    background: black;
-    padding: 1px;
 }
