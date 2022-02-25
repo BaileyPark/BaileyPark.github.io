@@ -14,7 +14,6 @@
 
 #greeting {
     color: white;
-    background-color: tomato;
     margin: 30px;
 }
 
@@ -44,6 +43,7 @@
     border: none;
     background: purple;
     color: white;
+    cursor: pointer;
     font-size: 26px;
     border-radius: 20px;
     box-shadow: 2px 2px lightsteelblue;
