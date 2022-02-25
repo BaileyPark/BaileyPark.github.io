@@ -35,6 +35,15 @@
     color:indigo;
 }
 
+#login-id + input {
+    border: none;
+    background: purple;
+    color: white;
+    font-size: 26px;
+    border-radius: 20px;
+    box-shadow: 2px 2px lightsteelblue;
+}
+
 #todo-form {
     width: 200px;
     height: 30px;
@@ -59,6 +68,8 @@
 }
 
 #todo-list {
+    display: flex;
+
     color: white;
 }
 
