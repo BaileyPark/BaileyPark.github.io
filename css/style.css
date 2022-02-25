@@ -31,9 +31,14 @@
     background-color: unset;
 }
 
+#login-id:focus {
+    outline: none;
+}
+
 #login-id::placeholder {
     color:indigo;
 }
+
 
 #login-id + input {
     border: none;
@@ -42,6 +47,13 @@
     font-size: 26px;
     border-radius: 20px;
     box-shadow: 2px 2px lightsteelblue;
+}
+
+#todo-css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 #todo-form {
@@ -63,13 +75,18 @@
     background-color: unset;
 }
 
+#todo-insert:focus {
+    outline: none;
+}
+
 #todo-insert::placeholder {
     background-color: none;
 }
 
 #todo-list {
     display: flex;
-
+    align-items: flex-end;
+    flex-direction: column;
     color: white;
 }
 
