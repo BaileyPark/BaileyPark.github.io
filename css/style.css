@@ -1,14 +1,7 @@
-body {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
+#date {
+    text-align: right;
 }
 
-#date {
-    text-align: center;
-    background-color: aliceblue;
-}
 #day, #clock, #greeting {
     font-size: 50px;
     color:goldenrod;
@@ -26,16 +19,43 @@ body {
 }
 
 #login {
+    text-align: left;
     margin: 20px;
 }
 
- {
-    text-align: center;
-    background-color: black;
+#login-id {
+    margin: 20px;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: unset;
+}
+
+#login-id::placeholder {
+    color:indigo;
+}
+
+#todo-form {
+    width: 200px;
+    height: 30px;
+    background-color: beige;
+    border-radius: 18px;
 }
 
 #todo, #todo-form {
     text-align: center;
+}
+
+#todo-insert {
+    margin: 10px;
+    border: none;
+    font-size: 10px;
+    font-weight: 900;
+    background-color: unset;
+}
+
+#todo-insert::placeholder {
+    background-color: none;
 }
 
 #todo-list {

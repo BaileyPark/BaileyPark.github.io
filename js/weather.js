@@ -7,7 +7,7 @@ function onGeoOk(position) {
     fetch(url).then(Response => Response.json()).then(data => {
         const weather = document.querySelector("#weather span");
         const main = data.weather[0].main;
-        weather.innerText = `${main}한 날씨`;
+        weather.innerText = `${main} Weather`;
     });
 }
   
