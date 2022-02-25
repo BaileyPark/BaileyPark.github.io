@@ -31,6 +31,7 @@
     font-size: 30px;
     font-weight: 900;
     background-color: unset;
+    color: white;
 }
 
 #login-id:focus {
