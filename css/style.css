@@ -1,3 +1,7 @@
+body {
+    background-size: cover;
+}
+
 #date {
     text-align: right;
 }
@@ -7,9 +11,13 @@
     color:goldenrod;
 }
 
+#subject {
+    color: #FFF;
+}
+
 #weather {
     font-size: 30px;
-    color:darkred;
+    color:cadetblue;
 }
 
 #greeting {
