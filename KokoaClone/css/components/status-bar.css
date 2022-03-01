@@ -4,6 +4,7 @@
     padding: 5px 3px;
     position:fixed;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .status-bar__column {
