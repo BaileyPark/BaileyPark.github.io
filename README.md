@@ -1,4 +1,7 @@
 # BaileyPark.github.io
 
-[VanillaJS]: https://baileypark.github.io/VanillaJS "VanillaJS"
-[KokoaClone]: https://baileypark.github.io/KokoaClone "KokoaClone"
+[VanillaJS][VanillaJSLink]
+[KokoaClone][KokoaCloneLink]
+
+[VanillaJSLink]: https://baileypark.github.io/VanillaJS "VanillaJS"
+[KokoaCloneLink]: https://baileypark.github.io/KokoaClone "KokoaClone"
