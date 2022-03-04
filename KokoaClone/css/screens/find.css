@@ -33,6 +33,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 15px;
+    border-bottom: var(--main-border);
+    margin-bottom: 15px;
 }
 
 .open-post__title {
@@ -41,7 +44,6 @@
 }
 
 .open-post__hashtags {
-    text-transform: uppercase;
     opacity: 0.6;
 }
 
@@ -70,7 +72,7 @@
     background-color:rgba(0, 0, 0, 0.2);
 }
 
-.open-post__members-status {
+.open-post__member-status {
     color: #ffb0e0;
 }
 
@@ -119,4 +121,8 @@
 .open-post__heart-count:hover:hover i {
     will-change: transform;
     animation: heartBeat 2s linear infinite;
+}
+
+.main-screen__find {
+    padding-bottom: 80px !important;
 }

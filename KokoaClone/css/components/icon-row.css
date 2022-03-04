@@ -16,3 +16,7 @@
 .icon-row__icon span {
     margin-top: 18px;
 }
+
+.icon-row__icon--left {
+    margin-left: 55px;
+}

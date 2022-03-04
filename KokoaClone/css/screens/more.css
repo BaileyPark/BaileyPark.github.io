@@ -1,5 +1,9 @@
 .more-screen .icon-row {
-    margin-top: 35px;
+    margin-top: 25px;
+}
+
+.more-screen .icon-row:nth-child(3) {
+    margin-top: 50px;
 }
 
 .more-suggestions {
@@ -38,4 +42,21 @@
     color: white;
     flex-direction: column;
     align-items: center;
+}
+
+.fa-circle-exclamation {
+    color: red;
+}
+
+.more__dot {
+    background-color: tomato;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 270px;
+    top: 195px;
 }

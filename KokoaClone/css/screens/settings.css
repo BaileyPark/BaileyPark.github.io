@@ -7,12 +7,42 @@
     justify-content: space-between;
 }
 
+.settings__setting .settings__setting-column span {
+    display: flex;
+}
+
 .settings__setting i {
     opacity: 0.8;
     margin-right: 20px;
     font-size: 22px;
 }
 
+.settings__setting-column {
+    display: flex;
+}
+
 .settings__setting-column:last-child {
     opacity: 0.5;
+}
+
+.settings-list:first-child .settings__setting:nth-child(3) {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.settings-list {
+    margin-bottom: 20px;
+}
+
+.circle_new {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: red;
+    margin-left: 8px;
 }

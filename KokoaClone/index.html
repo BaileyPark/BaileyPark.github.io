@@ -8,7 +8,7 @@
     <title>Welcome to Kokoa Talk</title>
 </head>
 <body>
-    <div class="status-bar">
+    <div class="status-bar status-bar--login">
         <div class="status-bar__column">
             <span>No Service</span>
             <i class="fas fa-wifi"></i>
@@ -25,16 +25,17 @@
 
     <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number.</p>
+        <p class="welcome-header__text">If you have a Kokoa Account,<br>log in with your email or phone number.</p>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
         <input name="username" type="text" placeholder="Email or phone number" required>
         <input name="password" type="password" placeholder="Password" required>
         <input type="submit" value="Log in">
+        <input type="button" value="Sing Up">
     </form>
 
-    <a href="#">Find Kokoa Account or Password</a>
+    <a id="find_info" href="#">Find Kokoa Account or Password</a>
 
     <div id="no-mobile">
         <span>Your sceen is too big!</span>
