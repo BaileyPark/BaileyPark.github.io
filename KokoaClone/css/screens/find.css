@@ -72,8 +72,24 @@
     background-color:rgba(0, 0, 0, 0.2);
 }
 
+@keyframes colorChange {
+    0% {
+        color: #ffb0e0;
+    }
+    30%{
+        color: red;
+    }
+    60% {
+        color: blue;
+    }
+    90% {
+        color: #ffb0e0;
+    }
+}
+
 .open-post__member-status {
     color: #ffb0e0;
+    animation: colorChange 3s ease-in-out infinite;
 }
 
 .open-post__photo {
@@ -118,7 +134,7 @@
     }
 }
 
-.open-post__heart-count:hover:hover i {
+.open-post__heart-count:hover i {
     will-change: transform;
     animation: heartBeat 2s linear infinite;
 }
