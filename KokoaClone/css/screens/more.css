@@ -37,6 +37,10 @@
     margin-bottom: 10px;
 }
 
+.more-suggestions__icon-image:hover {
+    transform: scale(1.2);
+}
+
 .more-suggestions__icon-image i {
     font-size: 32px;
     color: white;
