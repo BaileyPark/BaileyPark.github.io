@@ -42,6 +42,12 @@
     font-weight: 400;
 }
 
+.user-component__title--faintly {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.4);
     display: flex;
