@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.icon-row__icon:hover {
+    transform: rotateZ(5deg);
+}
+
 .icon-row__icon i {
     font-size: 35px;
 }
