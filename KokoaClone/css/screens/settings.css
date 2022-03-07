@@ -46,3 +46,7 @@
     background-color: red;
     margin-left: 8px;
 }
+
+.fa-brush {
+    transform: rotateZ(180deg);
+}
