@@ -20,3 +20,7 @@
 .icon-row__icon--left {
     margin-left: 55px;
 }
+
+.icon-row__icon--relative {
+    position: relative;
+}
